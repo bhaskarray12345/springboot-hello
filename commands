@@ -1,0 +1,17 @@
+First install maven and Java comes with maven by default
+====================================================================================
+sudo yum install -y apache-maven
+
+Install git
+=====================================================================================
+sudo yum install git
+git version
+
+
+Install Jenkins
+======================================================================================
+sudo yum update
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo yum install jenkins
+sudo service jenkins start
