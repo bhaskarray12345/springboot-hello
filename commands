@@ -1,6 +1,6 @@
 First install maven and Java comes with maven by default
 ====================================================================================
-sudo yum install -y apache-maven
+sudo yum install -y maven
 
 Install git
 =====================================================================================
